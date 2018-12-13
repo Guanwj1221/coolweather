@@ -5,7 +5,7 @@
 
     <fragment
         android:id="@+id/fg_choose_area"
-        android:name="com.example.administrator.coolweather.ChooseAreaFragment"
+        android:name="com.example.administrator.coolweather.fragment.ChooseAreaFragment"
         android:layout_width="match_parent"
         android:layout_height="match_parent" />
 
