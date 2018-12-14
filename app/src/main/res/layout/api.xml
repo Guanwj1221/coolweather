@@ -3,7 +3,7 @@
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
     android:layout_margin="15dp"
-    android:background="#5000"
+    android:background="#8000"
     android:orientation="vertical">
 
     <TextView
@@ -12,6 +12,7 @@
         android:layout_marginLeft="15dp"
         android:layout_marginTop="15dp"
         android:text="空气质量"
+        android:textColor="#fff"
         android:textSize="20sp" />
 
     <LinearLayout
@@ -35,12 +36,14 @@
                     android:id="@+id/tv_aqi"
                     android:layout_gravity="center"
                     android:textSize="40sp"
+                    android:textColor="#fff"
                     android:text="000"/>
 
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_gravity="center"
+                    android:textColor="#fff"
                     android:text="AQI指数" />
             </LinearLayout>
         </RelativeLayout>
@@ -60,12 +63,14 @@
                     android:id="@+id/tv_pm25"
                     android:layout_gravity="center"
                     android:textSize="40sp"
+                    android:textColor="#fff"
                     android:text="000"/>
 
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_gravity="center"
+                    android:textColor="#fff"
                     android:text="PM2.5 指数" />
             </LinearLayout>
         </RelativeLayout>

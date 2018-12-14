@@ -11,6 +11,7 @@
         android:id="@+id/tv_now_degree"
         android:layout_gravity="end"
         android:textSize="60sp"
+        android:textColor="#fff"
         android:text="当期温度"/>
 
     <TextView
@@ -19,6 +20,7 @@
         android:id="@+id/tv_now_weather_info"
         android:layout_gravity="end"
         android:textSize="20sp"
+        android:textColor="#fff"
         android:text="天气概括"/>
 
 </LinearLayout>

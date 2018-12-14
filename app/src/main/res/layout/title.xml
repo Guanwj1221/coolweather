@@ -3,12 +3,20 @@
     android:layout_width="match_parent"
     android:layout_height="?attr/actionBarSize">
 
+    <Button
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:id="@+id/bt_nav"
+        android:layout_marginLeft="10dp"
+        android:layout_alignParentLeft="true"
+        android:background="@drawable/ic_home"/>
     <TextView
         android:id="@+id/tv_title_city"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_centerInParent="true"
         android:textSize="20sp"
+        android:textColor="#fff"
         android:text="城市名"/>
 
     <TextView
@@ -19,6 +27,7 @@
         android:layout_centerVertical="true"
         android:layout_marginRight="10dp"
         android:textSize="16sp"
+        android:textColor="#fff"
         android:text="更新时间"/>
 
 </RelativeLayout>
